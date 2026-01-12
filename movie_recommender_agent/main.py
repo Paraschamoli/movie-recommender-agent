@@ -305,7 +305,7 @@ async def initialize_agent() -> None:
         markdown=True,
     )
     print(f"✅ Movie Recommender agent initialized using {model_name}")
-    print(f"🎬 Exa search enabled for movie information and ratings")
+    print("🎬 Exa search enabled for movie information and ratings")
     if mem0_api_key:
         print("🧠 Memory system enabled for conversation context")
 
@@ -382,9 +382,7 @@ def _display_configuration_info() -> None:
 
 def main() -> None:
     """Run the main entry point for the Movie Recommender Agent."""
-    parser = argparse.ArgumentParser(
-        description="Movie Recommender Agent - Intelligent film recommendation system"
-    )
+    parser = argparse.ArgumentParser(description="Movie Recommender Agent - Intelligent film recommendation system")
     parser.add_argument(
         "--openrouter-api-key",
         type=str,

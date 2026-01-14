@@ -38,7 +38,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://Paraschamoli.github.io/movie-recommender-agent/"
 Repository = "https://github.com/Paraschamoli/movie-recommender-agent"
-Documentation = "https://Paraschamoli.github.io/movie-recommender-agent/"
+Documentation = "https://github.com/Paraschamoli/movie-recommender-agent#readme"
 Issues = "https://github.com/Paraschamoli/movie-recommender-agent/issues"
 Changelog = "https://github.com/Paraschamoli/movie-recommender-agent/releases"
 
